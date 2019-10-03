@@ -3,6 +3,7 @@
     <vif></vif>
     <key></key>
     <instance></instance>
+    <emit-instance></emit-instance>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Vif from "./components/Vif.vue";
 import Key from "./components/Key.vue";
 import Instance from "./components/Instance.vue";
+import EmitInstance from "./components/EmitInstance.vue";
 
 export default {
   name: "app",
   components: {
     Vif,
     Key,
-    Instance
+    Instance,
+    EmitInstance
   }
 };
 </script>
